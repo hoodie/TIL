@@ -3,7 +3,7 @@ title: Today I Learned
 email: til@hoodie.de
 description: >
   Don't mind me, I'm just Hendrik's personal log of things picked up.
-  Essentially a [#TIL](https://twitter.com/hashtag/TIL) in blog-form.
+  Essentially a #TIL in blog-form.
   I'm trying to start documenting the little things I'm learning.
   Perhaps others will pick this up too, I'm anxious to read yours.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -12,4 +12,6 @@ twitter_username: hoodie_de
 github_username:  hoodie
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "footnotes"]

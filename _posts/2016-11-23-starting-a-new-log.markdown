@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Starting a new log
-date:   2016-11-24 11:17:07
+date:   2016-11-23 11:17:07
 categories: starting
 ---
 
